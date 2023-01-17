@@ -1,0 +1,140 @@
+GIT CONFIGURATION
+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
+
+    1   yum update -y
+    2  yum install git -y
+    3  git --version
+     git config --global user.name "pritish"
+     git config --global user.email "pritishcka22@gmail.com"
+     git config --list
+	 mkdir avi
+   12  ls -la
+   13  cd avi
+   14  git init
+   15  ls -la
+   16  touch gopi
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit -m "fiest commit of my life"
+   21  git status
+   git remote add origin  mkdir avi
+   26     12  ls -la
+   27     13  cd avi
+   28     14  git init
+   29     15  ls -la
+   30     16  touch gopi
+   31     17  git status
+   32     18  git add .
+   33     19  git status
+   34     20  git commit -m "fiest commit of my life"
+   35  git remote add origin https://github.com/PKTWORLD/mahesh.git
+   36  git push -u origin master
+   37  cat >gopi
+   38  git status
+   39  git add .
+   40  git status
+   41  git commit -m "gopi is alone"
+   42  git push origin master
+    
+   
+   token number====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
+   
+   
+   
+   1  yum install git
+    2  git config --global user.name "pritish"
+    3       git config --global user.email "pritishcka22@gmail.com"
+    4       git config --list
+    5  mkdir lopy
+    6  git init
+    7  touch love
+    8  git add .
+    9  git commit -m "I love you"
+   10  git remote add origin https://github.com/PKTWORLD/lopu.git
+   11  git push -u origin master
+   12  git branch
+   13  git log --oneline
+   14  git branch princess
+   15  git branch
+   16  git checkout princess
+   17  git branch
+       git branch -d Princess
+	   cat >prinshu
+   
+   21  git commit -m "really ra"
+   22  git add .
+   23  git commit -m "really ra"
+   24  git log --oneline
+   25  cat >puchu
+   26  ls
+   27  git checkout master
+   28  ls
+   29  git checkout princess
+   30  git add .
+   31  git commit -m "puchu hiii"
+   32  ls
+   36  git log
+   37  git checkout master
+   38  git merge princess
+   39  git log
+   40  git push origin master
+   41  history
+   42  cat >file1
+   43  git add .
+   44  git commit -m "i am feeling sleepy"
+   45  git checkout princess
+   46  cat >file1
+   47  git add .
+   48  git commit -m "hi where r u"
+   49  git checkout master
+   50  git merge princess
+   51  vi fikle1
+   52  vi file1
+   53  git status
+   54  git add .
+   55  git commit -m "wow"
+   56  git log --oneline
+      36  git log
+   37  git checkout master
+   38  git merge princess
+   39  git log
+   40  git push origin master
+   41  history
+   42  cat >file1
+   43  git add .
+   44  git commit -m "i am feeling sleepy"
+   45  git checkout princess
+   46  cat >file1
+   47  git add .
+   48  git commit -m "hi where r u"
+   49  git checkout master
+   50  git merge princess
+   51  vi fikle1
+   52  vi file1
+   53  git status
+   54  git add .
+   55  git commit -m "wow"
+   56  git log --oneline
+   59  cat >file2
+   60  git stash
+   61  git add .
+   62  git commit -m "file2"
+   63  vi file2
+   64  git stash
+   65  vi file2
+   66  git stash list
+   67  vi file2
+   68  git stash
+   69  git stash list
+   70  git stash apply stash@{0}
+   71  cat file2
+   72  git add .
+   73  git commit -m "first commit"
+   staging area-------------to rest staging area
+   
+   
+   git reset <filename>
+   git reset .
+   
+   git reset --hard

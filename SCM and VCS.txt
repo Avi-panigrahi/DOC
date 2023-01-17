@@ -1,0 +1,19 @@
+04/01/23
+
+SOURCE  CODE  MANAGEMENT :
+
+== Source code management (SCM) is used to track modifications to a source code repository. 
+
+== SCM tracks a running history of changes to a code base and helps .
+
+VERSION  CONTROL  SYSTEM :
+ 
+Version control system, also known as source control, is the practice of tracking and managing changes to software code. 
+
+Version control systems are software tools that help software teams manage changes to source code over time.
+
+
+
+
+
+

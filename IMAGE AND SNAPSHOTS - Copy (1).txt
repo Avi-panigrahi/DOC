@@ -1,0 +1,27 @@
+
+IMAGE :
+
+ == The "image" is the filesystem that is used to initialize, or create that instance.
+
+SNAPSHOTS :
+
+==  A snapshot is a base feature for creating backups of your EBS volumes. 
+==A snapshot takes a copy of the EBS volume and places it in Amazon S3, where it is stored       redundantly in multiple Availability Zones. 
+==The initial snapshot is a full copy of the volume; ongoing snapshots store incremental block-level      changes only.
+
+
+DIFFERENCE B/W IMAGE AND SNAPSHOTS
+
+
+Snapshots and images are two different types of data storage in Amazon AWS. A snapshot captures the state of a data store at a particular point in time, while an image stores a data store as a set of files.
+
+Snapshots are helpful for taking a “snapshot” of a data store, so you can revert to a previous state if something goes wrong. For example, if you accidentally deleted a file from a data store, you can take a snapshot of the data store before you deleted the file, and then restore the snapshot to restore the file.
+
+
+Images are used to store data permanently. When you create an image, you create a copy of the data store that you can access and use forever.
+
+Images are useful for storing data that you don’t want to lose, or for storing data that you want to share with other people.
+
+
+
+

@@ -1,0 +1,31 @@
+
+         DISMERITS OF CENTRAILIZED VERSION CONTROL SYSTEM :
+
+ ....The single point of failure embedded within the centralized server.
+
+..... If the remote server goes down, then no one can work on the code or push changes. 
+
+......The lack of offline access means that any disruption can significantly impact code development and  even result in code loss.
+
+
+                 ADVANTAGES AND DISADVANTAGES OF DISTURBUTED CONTROL SYSTEM
+
+
+Advantages of Distributed Version Control System:
+
+== Other than push and pull, all actions can be performed very quickly, since it is the hard drive, and not the remote server that is accessed       every time.
+== Changesets can be committed to the local repository first and then a group of these changesets can be pushed to the central repository       in a single shot.
+== Only the pushing and pulling activities need internet connectivity; everything else can be managed locally.
+== Every developer has a complete copy of the entire repository and the impact any change can be checked locally before the code is pushed to the central repository.
+== DVCS is built to handle changes efficiently, since every change has a Global Unique Identifier (GUID) that makes it easy to track.
+== Tasks like branching and merging can be done with ease, since every developer has their own branch and every shared change is like       reverse integration 
+== DVCS is very easy to manage compared to CVCS.
+
+
+Disadvantages of Distributed Version Control System : 
+
+== With many projects, large binary files that are difficult to compress, will occupy more space.
+== Projects with a long history, i.e., a large number of changesets may take a lot of time and occupy more disk space.
+== With DVCS, a backup is still needed, since the latest updated version may not be available to all the developers.
+== Though DVCS doesn’t prevent having a central server, not having a central server might cause confusions in identifying the right recent version.
+== Though every repo has its own revision numbers, releases have to be tagged with appropriate names to avoid confusions.
